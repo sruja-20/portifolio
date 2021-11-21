@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans+Condensed:wght@300;700&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans+Condensed:wght@300;700&family=Zen+Kurenaido&display=swap');
+body{
+  background-image: url("../images/b1.jpg");
+  margin: 0;
+  background-color: #444242;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+/* navigation bar*/
+.nav a {
+  color:white;
+
+  display: inline-block;
+  width: 100%;
+  height:100%;
+  font-size: 0.8em;
+  text-align: center;
+  padding:  1.01em;
+  padding-right: 0;
+}
+.nav a:hover{
+  background-color: black;
+}
+.nav ul li{
+
+  border-bottom: solid white;
+  text-align: center;
+
+}
+.nav{
+  background-color:#1C1E1E ;
+  width:15%;
+  float: left;
+  height:600px;
+  font-size: 1.3em;
+  margin-left: 1.1em;
+  margin-top: 0;
+  color:white;
+}
+.nav ul{
+  margin-top: 0px;
+  padding-left: 0;
+}
+
+.nav ul{
+  margin-top:0;
+}
+.nav .nav-top{
+  box-sizing: border-box;
+  padding:1.1em;
+}
+.nav-top p{
+  padding:1.2em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 0;
+
+}
+.nav-top p span{
+  font-size: 1.3em;
+}
+.nav .nav-top img{
+  margin-left: 1.1em;
+  box-sizing: border-box;
+}
+.nav .nav-top img{
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+
+
+.intro-container{
+  position: relative;
+  height:600px;
+
+  font-size: 1.5em;
+  color: white;
+  float: left;
+  width:70%;
+  margin-left: 2em;
+  box-sizing: border-box;
+
+}
+
+/* introduction*/
+.intro-container .intro h1{
+  text-align: center;
+  top:0;
+  margin: 0;
+}
+.intro-container .intro p{
+  text-align: center;
+}
+.intro-container .intro .intro-family img{
+  float: left;
+}
+.intro-container .intro .intro-family h2{
+  margin-bottom: 0;
+}
+.intro-container .intro .intro-family p{
+  text-align:left;
+  margin-top: 0.8em;
+}
+.intro-family .content{
+  position: relative;
+  left:1.3em;
+}
+.intro-family .content::after{
+  content: "";
+  display:block;
+  clear: both;
+}
+.about-content{
+  margin-top: 3em;
+  margin-left: 3em;
+  color:white;
+/*  background-color: #393A3A  ;*/
+  width:75%;
+}
+.about-content h3{
+  text-align: center;
+}
+.stud p{
+  position: relative;
+  background-color: black ;
+  height:40px;
+  width:15%;
+  left:40%;
+}
+
+/*education*/
+
+.tenth,.twelth,.btech{
+  width:45%;
+  display: inline-block;
+  float:left;
+  box-sizing: border-box;
+  height:50%;
+}
+.tenth{
+  margin-right: 1.5em;
+  margin-top: 1em;
+}
+.twelth,.btech{
+  margin-top: 1em;
+}
+.btech{
+  position: relative;
+  left:25%;
+}
+.tenth,.twelth,.btech h3{
+  text-align: center;
+}
+.edu{
+  position: relative;
+  /*margin-top: 1.4em;*/
+}
+.head h2{
+  text-align: center;
+  border-bottom: solid white;
+  color:#D31A1A ;
+  margin: 0;
+}
+/*technical skill*/
+.python, .frontend h3{
+   text-align: center;
+}
+.python,.frontend{
+  border-bottom: solid white;
+  background-color: #373433  ;
+  color:#D7D8D8 ;
+}
+.python{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.python,.frontend p{
+  margin: 0.5em;
+}
+
+/* contact */
+.contact{
+  margin-top: 5em;
+  margin-left: 9em;
+  box-sizing: border-box;
+}
+.txt{
+  border-radius: 6px;
+  display: block;
+  padding: 1.3em;
+  background-color: black;
+  color: white ;
+}
+.txtarea{
+  border-radius: 6px;
+  background-color: black ;
+  color: white;
+}
+.btn{
+  display: block;
+  padding: 1.01em;
+  width:70px;
+  border-radius: 9px;
+  background-color: #38706F ;
+}
+@media screen and (max-width:990px)  {
+   .nav{
+     margin-left: 0;
+     width:20%;
+     }
+     .nav .nav-top img{
+       float: left;
+       width:70px;
+       height: 70px;
+     }
+     .nav .nav-top{
+       padding: 0;
+     }
+     .nav a{
+       text-align: left;
+       font-size: 0.7em;
+     }
+     .tenth,.twelth,.btech{
+       display: block;
+       float: none;
+     }
+     .btech{
+       left: 0;
+     }
+     .contact{
+       margin-left: 0;
+     }
+
+}
